@@ -1,0 +1,22 @@
+name: chemical
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.0.0 # 您的版本號可能不同，請保留原本的
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # 其他相依套件...
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# 確保整個檔案中「只有一個」flutter 標籤，且 assets 定義如下：
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/questions.json
